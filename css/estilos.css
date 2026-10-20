@@ -146,7 +146,34 @@ li a:hover{
         align-items: center;
     }
 
-    
+    .last-icon{
+        margin-right: 100px;
+    }
+
+    .fa-instagram:hover{
+        transform: scale(1.9,1.9);
+        transition: 0.5s;
+    }
+
+    .fa-tiktok:hover{
+        transform: scale(1.9,1.9);
+        transition: 0.5s;
+    }
+
+    .fa-spotify:hover{
+        transform: scale(1.9,1.9);
+        transition: 0.5s;
+    }
+
+    .fa-youtube:hover{
+        transform: scale(1.9,1.9);
+        transition: 0.5s;
+    }
+
+    .fa-square-facebook:hover{
+        transform: scale(1.9,1.9);
+        transition: 0.5s;
+    }
 
     main{
         
