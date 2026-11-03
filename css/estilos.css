@@ -122,6 +122,68 @@ li a:hover{
         transition: 1s;
     }
 
+/*formulario de contacto*/
+.contacto{
+    width: 100%;
+    padding:40px 20px;
+}
+
+.formulario-contacto{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.formulario-contacto h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.formulario-contacto form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.formulario-contacto .campo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.formulario-contacto label{
+    font-size: 20px;
+}
+.formulario-contacto input,
+.formulario-contacto textarea{
+    width: 100%;
+    padding: 12px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgb(131, 182, 241);
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.formulario-contacto input{
+    min-height: 45px;
+}
+.formulario-contacto textarea{
+    resize: vertical;
+}
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus{
+    outline: 5px solid rgb(41, 50, 56);
+    outline-offset: 1px;
+    border-color: rgb(41, 50, 56);
+}
+
+/*        DISCOGRAFIA        */
+
+.Discografia{
+    background-color: #aeaecf;
+}
+
 /*          DESKTOP         */
 
 @media only screen and (min-width:968px) {
