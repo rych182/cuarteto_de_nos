@@ -184,6 +184,16 @@ li a:hover{
     background-color: #aeaecf;
 }
 
+.contenedor-principal{
+    border: solid 2px rgb(138, 30, 210);
+}
+
+.tarjeta{
+    background-color: #3aa8f1;
+    width: 300px;
+    padding: 10px;
+}
+
 /*          DESKTOP         */
 
 @media only screen and (min-width:968px) {
