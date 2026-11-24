@@ -1,5 +1,5 @@
 *{
-    margin: 0;w
+    margin: 0;
 }
 
 body{
@@ -186,12 +186,37 @@ li a:hover{
 
 .contenedor-principal{
     border: solid 2px rgb(138, 30, 210);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-sizing: border-box;
 }
 
+/* En celular: 2 tarjetas por fila (50% menos la mitad del gap) */
 .tarjeta{
     background-color: #3aa8f1;
-    width: 300px;
     padding: 10px;
+    border-radius: 10px;
+    width: calc(50% - 7.5px);
+    box-sizing: border-box;
+}
+
+.tarjeta img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* En tablet: 3 tarjetas por fila */
+@media only screen and (min-width:600px) {
+    .tarjeta{
+        width: calc(33.333% - 10px);
+    }
 }
 
 /*          DESKTOP         */
@@ -248,7 +273,17 @@ li a:hover{
     }
 
     main{
-        
+
+    }
+
+    .contenedor-principal{
+        gap: 25px;
+        padding: 25px;
+    }
+
+    /* En escritorio: 5 tarjetas por fila (20% menos su parte de los 4 gaps) */
+    .tarjeta{
+        width: calc(20% - 20px);
     }
 
     main section{
